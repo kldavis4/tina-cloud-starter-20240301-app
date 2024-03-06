@@ -7,7 +7,7 @@ import { Global } from "../../tina/__generated__/types";
 
 export const Layout = ({
   rawData = {},
-  data = {},
+  data = { theme: { color: "blue", font: "sans", darkMode: 'system' }, header: { icon: { name: "Tina", color: "orange", style: 'float'} }, footer: { } },
   children,
 }: {
   rawData?: object;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const ThemeContext = React.createContext({});
+const ThemeContext = React.createContext({color: "blue", font: "sans", darkMode: 'system'});
 
 export const useTheme = () => React.useContext(ThemeContext);
 
