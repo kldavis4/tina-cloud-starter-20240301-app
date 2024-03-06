@@ -30,6 +30,13 @@ const Page: Collection = {
       required: true,
     },
     {
+      type: "string",
+      label: "SubTitle",
+      name: "subtitle",
+      description:
+        "The subtitle of the page. This is used to display the title in the CMS",
+    },
+    {
       type: "object",
       list: true,
       name: "blocks",
