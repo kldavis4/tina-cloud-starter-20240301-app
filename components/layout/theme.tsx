@@ -1,7 +1,6 @@
 import * as React from "react";
-import GlobalData from "../../content/global/index.json";
 
-const ThemeContext = React.createContext(GlobalData.theme);
+const ThemeContext = React.createContext({});
 
 export const useTheme = () => React.useContext(ThemeContext);
 

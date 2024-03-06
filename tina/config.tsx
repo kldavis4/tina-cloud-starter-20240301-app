@@ -6,6 +6,7 @@ import Author from "./collection/author";
 import Page from "./collection/page";
 
 const config = defineConfig({
+  localContentPath: "../../tina-cloud-starter-20240301-content",
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
   branch:
     process.env.NEXT_PUBLIC_TINA_BRANCH! || // custom branch env override

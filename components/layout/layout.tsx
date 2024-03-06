@@ -3,12 +3,11 @@ import Head from "next/head";
 import { Header } from "./header";
 import { Footer } from "./footer";
 import { Theme } from "./theme";
-import layoutData from "../../content/global/index.json";
 import { Global } from "../../tina/__generated__/types";
 
 export const Layout = ({
   rawData = {},
-  data = layoutData,
+  data = {},
   children,
 }: {
   rawData?: object;
