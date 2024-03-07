@@ -2468,10 +2468,10 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@tinacms/app@0.0.0-20240306172114":
-  version "0.0.0-20240306172114"
-  resolved "https://registry.yarnpkg.com/@tinacms/app/-/app-0.0.0-20240306172114.tgz#952ab982023770015fa616ad2f3efb85ccbd8a11"
-  integrity sha512-mT9mI25cG8YwrT0WG6bi6krUJMK5k3BMe5FRIcnUCv55tHEoph4KrTcPtA2kliuroNxxugymZ7QkzxM5Q3dMww==
+"@tinacms/app@1.2.38":
+  version "1.2.38"
+  resolved "https://registry.yarnpkg.com/@tinacms/app/-/app-1.2.38.tgz#b0f48f503ceb1036c094d0551a5a443f5e32040e"
+  integrity sha512-j5Iq45K2GpDp0gcQv2lqAFPXJRNqBs2z/QPYXgkg48fByLu2e82AYjLVMVjY5+kzhJ1W03TZ2jMoIiQSTuR5zA==
   dependencies:
     "@codemirror/language" "6.0.0"
     "@graphiql/toolkit" "0.8.4"
@@ -2489,14 +2489,14 @@
     react-dom "17.0.2"
     react-router-dom "6.3.0"
     tailwindcss "^3.2.7"
-    tinacms "0.0.0-20240306172114"
+    tinacms "1.6.0"
     typescript "^4.6.4"
     zod "^3.14.3"
 
-"@tinacms/cli@0.0.0-20240306172114":
-  version "0.0.0-20240306172114"
-  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-0.0.0-20240306172114.tgz#1f5b0782358ff24909e5b1dd1da46a1b26e801dc"
-  integrity sha512-/qbMgwRU/USsOm5dJcu/HpUNqw141rLBnCkjAYGF6z/yYXMj3ScieDJEp/9vqL5UPmMgKmfG+sKd1YC7Wb6yHQ==
+"@tinacms/cli@^1.5.42":
+  version "1.5.42"
+  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-1.5.42.tgz#21c270485d23377a42fd133fb43adbf6802c9f62"
+  integrity sha512-qSr+oPsDQvGo2w0pdvl6lW8Mt7krYSpjdWENaMLLkH/CxjUvUGLrc1aAPhDLHfj1mg1+dh6cU3D6oEAhzOeyog==
   dependencies:
     "@graphql-codegen/core" "^2.1.0"
     "@graphql-codegen/plugin-helpers" latest
@@ -2512,7 +2512,7 @@
     "@tailwindcss/aspect-ratio" "^0.4.0"
     "@tailwindcss/line-clamp" "^0.3.1"
     "@tailwindcss/typography" "^0.5.9"
-    "@tinacms/app" "0.0.0-20240306172114"
+    "@tinacms/app" "1.2.38"
     "@tinacms/datalayer" "1.2.33"
     "@tinacms/graphql" "1.4.33"
     "@tinacms/metrics" "1.0.2"
@@ -2557,7 +2557,7 @@
     readable-stream "^4.3.0"
     rollup-plugin-visualizer "^5.9.0"
     tailwindcss "^3.2.7"
-    tinacms "0.0.0-20240306172114"
+    tinacms "1.6.0"
     typanion "3.13.0"
     typescript "4.3.5"
     url-pattern "^1.0.3"
@@ -8517,10 +8517,10 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
-tinacms@0.0.0-20240306172114:
-  version "0.0.0-20240306172114"
-  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-0.0.0-20240306172114.tgz#20e96dfb430724db3c715ec135cdf32145e611d8"
-  integrity sha512-8kOB4+lAVPc5K65VX9OzV5xF6iXWOP3M06/vOL+cEwDLx0UicW8/6Oy/ANZnadlGCllu6iXmpfbJD+mQVx2KlQ==
+tinacms@1.6.0, tinacms@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.6.0.tgz#2296fb8934cb81800590dafc89ffdf08f518706b"
+  integrity sha512-NLxybsPOcSzZ+wYcxx93JXQ/yT5b9gW29AP3hkTyT9rpyoPrtITRFEhJ+Ac7AwkPmKk3dvzuaDga6DCaxvAaKg==
   dependencies:
     "@floating-ui/dom" "^1.4.4"
     "@floating-ui/react-dom" "^2.0.1"
