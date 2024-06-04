@@ -1627,14 +1627,7 @@
   dependencies:
     client-only "^0.0.1"
 
-"@headlessui/react@^1.5.0":
-  version "1.7.14"
-  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.7.14.tgz#75f19552c535113640fe8a3a40e71474f49e89c9"
-  integrity sha512-znzdq9PG8rkwcu9oQ2FwIy0ZFtP9Z7ycS+BAqJ3R5EIqC/0bJGvhT7193rFf+45i9nnPsYvCQVW4V/bB9Xc+gA==
-  dependencies:
-    client-only "^0.0.1"
-
-"@headlessui/react@^1.7.15":
+"@headlessui/react@^1.5.0", "@headlessui/react@^1.7.15":
   version "1.7.17"
   resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.7.17.tgz#a0ec23af21b527c030967245fd99776aa7352bc6"
   integrity sha512-4am+tzvkqDSSgiwrsEpGWqgGo9dz8qU5M3znCkC4PgkpY4HcCZzEDEvozltGGGHIKl9jbXbZPSH5TWn4sWJdow==
@@ -2468,17 +2461,10 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-<<<<<<< Updated upstream
-"@tinacms/app@1.2.38":
-  version "1.2.38"
-  resolved "https://registry.yarnpkg.com/@tinacms/app/-/app-1.2.38.tgz#b0f48f503ceb1036c094d0551a5a443f5e32040e"
-  integrity sha512-j5Iq45K2GpDp0gcQv2lqAFPXJRNqBs2z/QPYXgkg48fByLu2e82AYjLVMVjY5+kzhJ1W03TZ2jMoIiQSTuR5zA==
-=======
 "@tinacms/app@1.2.39":
   version "1.2.39"
   resolved "https://registry.yarnpkg.com/@tinacms/app/-/app-1.2.39.tgz#c876ea75bf646903ef880943eaf297a3a2efdfc5"
   integrity sha512-q8nDzVPn9o4mAObG17K58BdoLL4+OzUAhJyZa/AYjkWySuaMalCUMfSTSE7Y4pNoY6riDTo5XMxCMrXx5dim1w==
->>>>>>> Stashed changes
   dependencies:
     "@codemirror/language" "6.0.0"
     "@graphiql/toolkit" "0.8.4"
@@ -2496,16 +2482,6 @@
     react-dom "17.0.2"
     react-router-dom "6.3.0"
     tailwindcss "^3.2.7"
-<<<<<<< Updated upstream
-    tinacms "1.6.0"
-    typescript "^4.6.4"
-    zod "^3.14.3"
-
-"@tinacms/cli@^1.5.42":
-  version "1.5.42"
-  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-1.5.42.tgz#21c270485d23377a42fd133fb43adbf6802c9f62"
-  integrity sha512-qSr+oPsDQvGo2w0pdvl6lW8Mt7krYSpjdWENaMLLkH/CxjUvUGLrc1aAPhDLHfj1mg1+dh6cU3D6oEAhzOeyog==
-=======
     tinacms "1.6.1"
     typescript "^4.6.4"
     zod "^3.14.3"
@@ -2514,7 +2490,6 @@
   version "1.5.43"
   resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-1.5.43.tgz#b016356c06c764ee4039056d4cf567b8d8452976"
   integrity sha512-HmsPLuLqPUrEOMmOgB/wLWYMZPE3Hsu1A4lbjYLEz2ho5TLozeGv/l7E2O4v/YMgkUGENt1MQhrDP1xZen5GFA==
->>>>>>> Stashed changes
   dependencies:
     "@graphql-codegen/core" "^2.1.0"
     "@graphql-codegen/plugin-helpers" latest
@@ -2530,11 +2505,7 @@
     "@tailwindcss/aspect-ratio" "^0.4.0"
     "@tailwindcss/line-clamp" "^0.3.1"
     "@tailwindcss/typography" "^0.5.9"
-<<<<<<< Updated upstream
-    "@tinacms/app" "1.2.38"
-=======
     "@tinacms/app" "1.2.39"
->>>>>>> Stashed changes
     "@tinacms/datalayer" "1.2.33"
     "@tinacms/graphql" "1.4.33"
     "@tinacms/metrics" "1.0.2"
@@ -2579,11 +2550,7 @@
     readable-stream "^4.3.0"
     rollup-plugin-visualizer "^5.9.0"
     tailwindcss "^3.2.7"
-<<<<<<< Updated upstream
-    tinacms "1.6.0"
-=======
     tinacms "1.6.1"
->>>>>>> Stashed changes
     typanion "3.13.0"
     typescript "4.3.5"
     url-pattern "^1.0.3"
@@ -2607,6 +2574,38 @@
     "@iarna/toml" "^2.2.5"
     "@tinacms/mdx" "1.3.23"
     "@tinacms/schema-tools" "1.4.15"
+    abstract-level "^1.0.3"
+    body-parser "^1.19.0"
+    cors "^2.8.5"
+    dataloader "^2.0.0"
+    date-fns "^2.21.1"
+    encoding-down "^7.1.0"
+    estree-walker "^3.0.0"
+    fast-glob "^3.2.5"
+    fs-extra "^9.0.1"
+    glob-parent "^6.0.2"
+    graphql "15.8.0"
+    gray-matter "^4.0.2"
+    isomorphic-git "^1.21.0"
+    js-sha1 "^0.6.0"
+    js-yaml "^3.14.1"
+    jsonpath-plus "^6.0.1"
+    lodash "^4.17.20"
+    many-level "^2.0.0"
+    micromatch "4.0.5"
+    normalize-path "^3.0.0"
+    readable-stream "^4.3.0"
+    scmp "^2.1.0"
+    yup "^0.32.9"
+
+"@tinacms/graphql@1.4.35":
+  version "1.4.35"
+  resolved "https://registry.yarnpkg.com/@tinacms/graphql/-/graphql-1.4.35.tgz#8e6fde4288de1f9f8acc4661232c0a6b719a96ac"
+  integrity sha512-dUl+888E2hL+BJMtNDLN6EkH/ckqJw/zhOgwK62lzoGhfX5qo8ed3q2KfU9mF0WyhBoeoAA08fmDNmYyaNgVrA==
+  dependencies:
+    "@iarna/toml" "^2.2.5"
+    "@tinacms/mdx" "1.3.25"
+    "@tinacms/schema-tools" "1.4.16"
     abstract-level "^1.0.3"
     body-parser "^1.19.0"
     cors "^2.8.5"
@@ -2667,6 +2666,42 @@
     uvu "0.5.6"
     vfile-message "3.1.4"
 
+"@tinacms/mdx@1.3.25":
+  version "1.3.25"
+  resolved "https://registry.yarnpkg.com/@tinacms/mdx/-/mdx-1.3.25.tgz#c9bcedaeb68b57e01d44a814c1a2a44e58633587"
+  integrity sha512-KtOLhNIJwWYjjGKlWCp6FvD4RuluJhJu3wMe2nmeCBnBm/bZrxCqxXOX+MXMVxPdPlv+cybPsv6r5XaOxC7dHg==
+  dependencies:
+    "@tinacms/schema-tools" "1.4.16"
+    acorn "8.8.2"
+    ccount "2.0.1"
+    estree-util-is-identifier-name "2.1.0"
+    lodash-es "4.17.21"
+    mdast-util-compact "4.1.1"
+    mdast-util-directive "2.2.4"
+    mdast-util-from-markdown "1.3.0"
+    mdast-util-gfm "2.0.2"
+    mdast-util-mdx "2.0.1"
+    mdast-util-mdx-jsx "2.1.2"
+    mdast-util-to-markdown "1.5.0"
+    micromark-extension-gfm "2.0.3"
+    micromark-factory-mdx-expression "1.0.7"
+    micromark-factory-space "1.0.0"
+    micromark-factory-whitespace "1.0.0"
+    micromark-util-character "1.1.0"
+    micromark-util-symbol "1.0.1"
+    micromark-util-types "1.0.2"
+    parse-entities "4.0.1"
+    prettier "^2.7.1"
+    remark "14.0.2"
+    remark-gfm "^2.0.0"
+    remark-mdx "2.3.0"
+    stringify-entities "4.0.3"
+    unist-util-source "4.0.2"
+    unist-util-stringify-position "3.0.3"
+    unist-util-visit "4.1.2"
+    uvu "0.5.6"
+    vfile-message "3.1.4"
+
 "@tinacms/metrics@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@tinacms/metrics/-/metrics-1.0.2.tgz#cf4d81236c2bc4c37c4fda37653e9241e1f8908f"
@@ -2683,6 +2718,15 @@
     url-pattern "^1.0.3"
     zod "^3.14.3"
 
+"@tinacms/schema-tools@1.4.16":
+  version "1.4.16"
+  resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-1.4.16.tgz#c055b604135dad0f250772b02dca0796f32d98d7"
+  integrity sha512-GNXSPG7oc9FAr0dZtautRJsmeOmhDyws0NZQDAUGIcAZ3mXlNcdGsdxC0AmC6U4xdCha1AF87VU7BrlsMgHEKg==
+  dependencies:
+    picomatch-browser "2.2.6"
+    url-pattern "^1.0.3"
+    zod "^3.14.3"
+
 "@tinacms/search@1.0.18":
   version "1.0.18"
   resolved "https://registry.yarnpkg.com/@tinacms/search/-/search-1.0.18.tgz#fb6b0dfb40210a81f5e71b8fed15463f54038c3f"
@@ -2690,6 +2734,21 @@
   dependencies:
     "@tinacms/graphql" "1.4.33"
     "@tinacms/schema-tools" "1.4.15"
+    abstract-level "^1.0.3"
+    memory-level "^1.0.0"
+    module-error "^1.0.2"
+    node-fetch "2"
+    search-index "4.0.0"
+    sqlite-level "^1.0.1"
+    stopword "^2.0.8"
+
+"@tinacms/search@1.0.20":
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/@tinacms/search/-/search-1.0.20.tgz#59121330beefba33ee49d36abe2082f58dfd9d24"
+  integrity sha512-GuOl/UACARHTm3Y9exvCrF9yKJPChpxHGXRR/ArR4sJev6RXzglkbYblxh/cVdfdgezDSxjs2gEFJy2WFmP2Sg==
+  dependencies:
+    "@tinacms/graphql" "1.4.35"
+    "@tinacms/schema-tools" "1.4.16"
     abstract-level "^1.0.3"
     memory-level "^1.0.0"
     module-error "^1.0.2"
@@ -4289,12 +4348,7 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-crypto-js@^4.0.0:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.1.1.tgz#9e485bcf03521041bd85844786b83fb7619736cf"
-  integrity sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==
-
-crypto-js@^4.1.1:
+crypto-js@^4.0.0, crypto-js@^4.1.1:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.2.0.tgz#4d931639ecdfd12ff80e8186dba6af2c2e856631"
   integrity sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==
@@ -7604,6 +7658,11 @@ react-icons@^4.2.0, react-icons@^4.3.1:
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.8.0.tgz#621e900caa23b912f737e41be57f27f6b2bff445"
   integrity sha512-N6+kOLcihDiAnj5Czu637waJqSnwlMNROzVZMhfX68V/9bu9qHaMIJC4UdozWoOk57gahFCNHwVvWzm0MTzRjg==
 
+react-icons@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-5.2.1.tgz#28c2040917b2a2eda639b0f797bff1888e018e4a"
+  integrity sha512-zdbW5GstTzXaVKvGSyTaBalt7HSfuK5ovrzlpyiWHAFXndXTdd/1hdDHI4xBM1Mn7YriT6aqESucFl9kEXzrdw==
+
 react-is@^16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -7679,19 +7738,10 @@ react-style-singleton@^2.2.1:
     invariant "^2.2.4"
     tslib "^2.0.0"
 
-react-textarea-autosize@8.5.2:
+react-textarea-autosize@8.5.2, react-textarea-autosize@^8.3.3:
   version "8.5.2"
   resolved "https://registry.yarnpkg.com/react-textarea-autosize/-/react-textarea-autosize-8.5.2.tgz#6421df2b5b50b9ca8c5e96fd31be688ea7fa2f9d"
   integrity sha512-uOkyjkEl0ByEK21eCJMHDGBAAd/BoFQBawYK5XItjAmCTeSbjxghd8qnt7nzsLYzidjnoObu6M26xts0YGKsGg==
-  dependencies:
-    "@babel/runtime" "^7.20.13"
-    use-composed-ref "^1.3.0"
-    use-latest "^1.2.1"
-
-react-textarea-autosize@^8.3.3:
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/react-textarea-autosize/-/react-textarea-autosize-8.4.1.tgz#bcfc5462727014b808b14ee916c01e275e8a8335"
-  integrity sha512-aD2C+qK6QypknC+lCMzteOdIjoMbNlgSFmJjCV+DrfTPwp59i/it9mMNf2HDzvRjQgKAyBDPyLJhcrzElf2U4Q==
   dependencies:
     "@babel/runtime" "^7.20.13"
     use-composed-ref "^1.3.0"
@@ -8563,17 +8613,10 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
-<<<<<<< Updated upstream
-tinacms@1.6.0, tinacms@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.6.0.tgz#2296fb8934cb81800590dafc89ffdf08f518706b"
-  integrity sha512-NLxybsPOcSzZ+wYcxx93JXQ/yT5b9gW29AP3hkTyT9rpyoPrtITRFEhJ+Ac7AwkPmKk3dvzuaDga6DCaxvAaKg==
-=======
 tinacms@1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.6.1.tgz#c8be776198ace6d4f0e00d9a5a185c765616c2f9"
   integrity sha512-3FddzJqqPUWv3Wt0kNTPIS0EsEvHYMxJPQFUCZiFP1oHj/1atbHmoy89Yr/pHsNHtu2dkzqeph+9wEvPPxI6ew==
->>>>>>> Stashed changes
   dependencies:
     "@floating-ui/dom" "^1.4.4"
     "@floating-ui/react-dom" "^2.0.1"
@@ -8617,6 +8660,65 @@ tinacms@1.6.1:
     react-dropzone "14.2.3"
     react-final-form "^6.3.0"
     react-icons "^4.3.1"
+    react-onclickoutside "^6.13.0"
+    react-router-dom "6.3.0"
+    react-textarea-autosize "8.5.2"
+    scheduler "0.19.0"
+    slate "^0.94.1"
+    slate-history "^0.93.0"
+    slate-hyperscript "^0.77.0"
+    slate-react "^0.97.1"
+    webfontloader "1.6.28"
+    yup "^0.32.0"
+    zod "^3.14.3"
+
+tinacms@1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.6.4.tgz#6befb5bcf7ec51bc189708cdf641bf55ad2cda94"
+  integrity sha512-wK8vdXRcw2ytwCKv2CQtOw1X88YNc0oj6+FFJgBeJgKP2Lu6xyahVZfM70LvH7XPamv/7PQD2Vw9qsE4n+c3Jg==
+  dependencies:
+    "@floating-ui/dom" "^1.4.4"
+    "@floating-ui/react-dom" "^2.0.1"
+    "@graphql-inspector/core" "^4.0.0"
+    "@headlessui/react" "^1.5.0"
+    "@heroicons/react" "^1.0.4"
+    "@monaco-editor/react" "4.4.5"
+    "@radix-ui/react-popover" "^1.0.6"
+    "@react-aria/i18n" "^3.3.4"
+    "@react-hook/window-size" "^3.0.7"
+    "@react-types/combobox" "^3.2.0"
+    "@react-types/shared" "^3.10.0"
+    "@sambego/storybook-styles" "^1.0.0"
+    "@tinacms/mdx" "1.3.25"
+    "@tinacms/schema-tools" "1.4.16"
+    "@tinacms/search" "1.0.20"
+    "@tinacms/sharedctx" "1.0.2"
+    "@udecode/plate-headless" "^21.4.0"
+    atob "2.1.2"
+    color-string "^1.5.3"
+    crypto-js "^4.0.0"
+    date-fns "2.30.0"
+    encoding "0.1.13"
+    fetch-ponyfill "^7.1.0"
+    final-form "4.20.10"
+    final-form-arrays "^3.0.1"
+    final-form-set-field-data "^1.0.2"
+    graphql "15.8.0"
+    graphql-tag "^2.11.0"
+    is-hotkey "^0.2.0"
+    lodash.get "^4.4.2"
+    lodash.set "^4.3.2"
+    moment "2.29.4"
+    monaco-editor "0.31.0"
+    prism-react-renderer "^2.0.6"
+    prismjs "^1.28.0"
+    prop-types "15.7.2"
+    react-beautiful-dnd "^13.1.0"
+    react-color "^2.17.3"
+    react-datetime "^2.16.3"
+    react-dropzone "14.2.3"
+    react-final-form "^6.3.0"
+    react-icons "^5.2.1"
     react-onclickoutside "^6.13.0"
     react-router-dom "6.3.0"
     react-textarea-autosize "8.5.2"
